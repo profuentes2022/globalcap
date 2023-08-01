@@ -6,6 +6,14 @@
     <title>Hospital</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <style>
+
+      #inptus{
+        padding-left: 200px;
+        padding-right: 200px;
+      }
+
+    </style>
 </head>
 <body>
 <!---------------------------------------------------------------------------------------------------------->
@@ -20,5 +28,85 @@
         </div>
       </nav>
 <!---------------------------------------------------------------------------------------------------------->
+<br><br>
+<div id="inptus">
+  <form action="/backendjava" method="post">
+
+<div class="input-group mb-3">
+  <span class="input-group-text">Nombre</span>
+  <input type="text" class="form-control" placeholder="Nombre" name="nombre" aria-label="Username">
+  <span class="input-group-text">Nit</span>
+  <input type="text" class="form-control" placeholder="Nit" name="nit" aria-label="Server">
+</div>
+
+<div class="input-group mb-3">
+  <span class="input-group-text">Edad</span>
+  <input type="text" class="form-control" placeholder="Edad" name="edad" aria-label="Username">
+  <span class="input-group-text">Antecedentes</span>
+  <input type="text" class="form-control" placeholder="Antecedentes" name="antecedentes" aria-label="Server">
+</div>
+
+<div class="input-group mb-3">
+  <span class="input-group-text">Tipo de Sangre</span>
+  <input type="text" class="form-control" placeholder="Tipo de Sangre" name="tipo_sangre" aria-label="Username">
+  <span class="input-group-text">Direccion</span>
+  <input type="text" class="form-control" placeholder="Direccion" name="direccion" aria-label="Server">
+</div>
+
+<div class="input-group mb-3">
+  <span class="input-group-text">Telefono</span>
+  <input type="text" class="form-control" placeholder="Telefono" name="telefono" aria-label="Username">
+  <span class="input-group-text">Correo</span>
+  <input type="text" class="form-control" placeholder="Correo" name="correo" aria-label="Server">
+</div>
+
+<div class="input-group mb-3">
+  <span class="input-group-text">Lugar de trabajo</span>
+  <input type="text" class="form-control" placeholder="lugar de trabajo" name="lugar_trabajo" aria-label="Username">
+  <span class="input-group-text">Nombre de la Empresa</span>
+  <input type="text" class="form-control" placeholder="Correo" name="nombre_empresa" aria-label="Server">
+</div>
+
+<div class="input-group mb-3">
+  <span class="input-group-text">Salario</span>
+  <input type="text" class="form-control" placeholder="salario" name="salario" aria-label="Username">
+  <span class="input-group-text">Enfermedad</span>
+  <input type="text" class="form-control" placeholder="enfermedad" name="enfermedad" aria-label="Server">
+</div>
+
+<div class="input-group mb-3">
+  <span class="input-group-text">Padecimiento</span>
+  <input type="text" class="form-control" placeholder="Padecimiento" name="padecimiento" aria-label="Username">
+  <span class="input-group-text">dolencia</span>
+  <input type="text" class="form-control" placeholder="dolencia" name="dolencia" aria-label="Server">
+</div>
+
+<div class="input-group mb-3">
+  <span class="input-group-text">Area referida</span>
+  <input type="text" class="form-control" placeholder="Area referida" name="area_referida" aria-label="Username">
+  <span class="input-group-text">medico</span>
+  <input type="text" class="form-control" placeholder="medico" name="medico" aria-label="Server">
+</div>
+
+
+<div class="input-group mb-3">
+  <span class="input-group-text">Especialidad medico</span>
+  <input type="text" class="form-control" placeholder="Especialidad medico" name="especialidad_medico" aria-label="Username">
+ 
+</div>
+
+<div class="input-group mb-3">
+  <label class="input-group-text" for="inputGroupFile01">FOTO</label>
+  <input type="file" class="form-control" name="foto" id="inputGroupFile01">
+</div>
+
+<br><br>
+<button class="btn btn-primary" type="submit">guardar</button>
+
+
+</div>
+
+</form>
+<br>
 </body>
 </html>
