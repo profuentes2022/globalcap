@@ -1,0 +1,1 @@
+INSERT INTO pacientes(`nombre`, `nit`, `edad`, `antecedentes`, `tipodesangre`, `direccion`, `telefono`, `correo`, `lugardetrabajo`, `nombreempresa`, `salario`, `enfermedad`, `padecimiento`, `dolencia`, `areareferida`) VALUES ('juan','123','12','sida','a','as','2121','waos@gmail.com','waos','waos','1','sida','sida','sida','urgencias');
