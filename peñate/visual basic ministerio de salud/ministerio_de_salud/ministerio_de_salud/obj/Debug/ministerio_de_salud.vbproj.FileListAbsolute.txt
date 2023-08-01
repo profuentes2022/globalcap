@@ -1,0 +1,14 @@
+c:\users\jrodr\onedrive\documentos\visual studio 2012\Projects\ministerio_de_salud\ministerio_de_salud\bin\Debug\ministerio_de_salud.exe.config
+c:\users\jrodr\onedrive\documentos\visual studio 2012\Projects\ministerio_de_salud\ministerio_de_salud\bin\Debug\ministerio_de_salud.exe
+c:\users\jrodr\onedrive\documentos\visual studio 2012\Projects\ministerio_de_salud\ministerio_de_salud\bin\Debug\ministerio_de_salud.pdb
+c:\users\jrodr\onedrive\documentos\visual studio 2012\Projects\ministerio_de_salud\ministerio_de_salud\bin\Debug\ministerio_de_salud.xml
+c:\users\jrodr\onedrive\documentos\visual studio 2012\Projects\ministerio_de_salud\ministerio_de_salud\obj\Debug\ministerio_de_salud.Form1.resources
+c:\users\jrodr\onedrive\documentos\visual studio 2012\Projects\ministerio_de_salud\ministerio_de_salud\obj\Debug\ministerio_de_salud.Resources.resources
+c:\users\jrodr\onedrive\documentos\visual studio 2012\Projects\ministerio_de_salud\ministerio_de_salud\obj\Debug\ministerio_de_salud.vbproj.GenerateResource.Cache
+c:\users\jrodr\onedrive\documentos\visual studio 2012\Projects\ministerio_de_salud\ministerio_de_salud\obj\Debug\ministerio_de_salud.exe
+c:\users\jrodr\onedrive\documentos\visual studio 2012\Projects\ministerio_de_salud\ministerio_de_salud\obj\Debug\ministerio_de_salud.xml
+c:\users\jrodr\onedrive\documentos\visual studio 2012\Projects\ministerio_de_salud\ministerio_de_salud\obj\Debug\ministerio_de_salud.pdb
+c:\users\jrodr\onedrive\documentos\visual studio 2012\Projects\ministerio_de_salud\ministerio_de_salud\obj\Debug\ministerio_de_salud.Form2.resources
+c:\users\jrodr\onedrive\documentos\visual studio 2012\Projects\ministerio_de_salud\ministerio_de_salud\bin\Debug\MySql.Data.EntityFramework.dll
+c:\users\jrodr\onedrive\documentos\visual studio 2012\Projects\ministerio_de_salud\ministerio_de_salud\bin\Debug\MySql.Data.EntityFramework.xml
+c:\users\jrodr\onedrive\documentos\visual studio 2012\Projects\ministerio_de_salud\ministerio_de_salud\obj\Debug\ministerio_de_salud.Form3.resources
