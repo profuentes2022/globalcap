@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #contenedor{
+        width: 100%;
+        height: 500px;
+       background-color: rgb(255, 0, 0);
+        display: flex;
+    }
+    .lado{
+        padding: 2%;
+        width: 25%;
+        height: 100%;
+        margin-left: 2.5%;
+       
+    }
+    .lado2{
+        padding: 2%;
+        width: 75%;
+        height: 100%;
+        margin-left: 2.5%;
+       
+    }
+</style>
+
+</head>
+<body onload="cargar()">
+    <div id="contenedor">
+        <div class="lado">
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="nombre" placeholder="name@example.com">
+                <label for="floatingInput">nombre</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="dpi" placeholder="name@example.com">
+                <label for="floatingInput">nit</label>
+              </div>
+
+            
+              <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="edad" placeholder="name@example.com">
+                <label for="floatingInput">edad</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="correo" placeholder="name@example.com">
+                <label for="floatingInput">atecedentes</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="correo" placeholder="name@example.com">
+                <label for="floatingInput">tipo de sangre</label>
+              </div>
+
+              
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="correo" placeholder="name@example.com">
+                <label for="floatingInput">direccion</label>
+              </div>
+
+              
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="correo" placeholder="name@example.com">
+                <label for="floatingInput">telefono</label>
+              </div>
+
+
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="correo" placeholder="name@example.com">
+                <label for="floatingInput">correo</label>
+              </div>
+
+              
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="correo" placeholder="name@example.com">
+                <label for="floatingInput">lugar de trabajo</label>
+              </div>
+              
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="correo" placeholder="name@example.com">
+                <label for="floatingInput">nombre empresa</label>
+              </div>
+
+              
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="correo" placeholder="name@example.com">
+                <label for="floatingInput">salario</label>
+              </div>
+
+
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="enfermedad" placeholder="name@example.com">
+                <label for="floatingInput">enfermedad</label>
+              </div>
+
+              
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="correo" placeholder="name@example.com">
+                <label for="floatingInput">padecimiento</label>
+              </div>
+
+              
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="correo" placeholder="name@example.com">
+                <label for="floatingInput">dolencia</label>
+              </div>
+
+              
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="correo" placeholder="name@example.com">
+                <label for="floatingInput">area de referencia</label>
+              </div>
+              
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="correo" placeholder="name@example.com">
+                <label for="floatingInput">medico</label>
+              </div>
+
+
+              
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="correo" placeholder="name@example.com">
+                <label for="floatingInput">especialidad de medico</label>
+              </div>
+
+
+
+
+
+              <br>
+              <button type="button" class="btn btn-danger" id="ncita"><i class="bi bi-person-plus-fill"></i> imprimir datos</button>
+
+
+
+
+        </div>
+
+        <div class="lado2">
+            <!--tabla-->
+            <table class="table" style="color:white">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">nombre</th>
+                    <th scope="col">nit</th>
+                    <th scope="col">edad</th>
+                    <th scope="col">atecedentes</th>
+                    <th scope="col">tipo de sangre</th>
+                    <th scope="col">direcion</th>
+                    <th scope="col">telefono</th>
+                    <th scope="col">correo</th>
+                    <th scope="col">lugar de trabajo</th>
+                    <th scope="col">nombre de empresa</th>
+                    <th scope="col">salario</th>
+                    <th scope="col">enfermedad</th>
+                    <th scope="col">padecimiento</th>
+                    <th scope="col">dolencia</th>
+                    <th scope="col">area de referencia</th>
+                    <th scope="col">medico</th>
+                    <th scope="col">especialidad medico</th>
+                  </tr>
+                </thead>
+                <tbody id="tbo">
+                  
+                  
+                </tbody>
+              </table>
+            <!--fin tabla-->
+
+        </div>
+    </div>
+</body>
+
+
+
+
+
+<script>
+
+    function cargar(){
+    
+    fetch("http://localhost/pacientes/back/view/V_pacientes.php")
+    .then(response=>response.json())
+    .then(json=>{
+
+       let medida= json.length;
+       let contenido;
+       for(x=0;x<=medida-1;x++){
+        contenido=contenido + '<tr><th scope="row">'+ json[x].id +'</th><td>'+ json[x].nombre+'</td><td>'+json[x].dpi+'</td><td>'+ json[x].correo+'</td><td>'+json[x].enfermedad+'</td><td>'+json[x].edad+'</td><td><button type="button" class="btn btn-danger"><i class="bi bi-trash3-fill"></i></button></td></tr>';
+       }
+       document.getElementById("tbo").innerHTML=contenido;
+
+
+
+        console.log(json);
+    })
+    };
+    
+    document.getElementById("ncita").addEventListener("click",()=>{
+
+
+        var formulario=new FormData();
+
+        let nombre=document.getElementById("nombre").value;
+        
+
+        formulario.append('nom',nombre);
+        formulario.append('nit',nit);
+        formulario.append('ed',edad);
+        formulario.append('at',atececedentes);
+        formulario.append('tip',tipo);
+        formulario.append('dire',direcion);
+        formulario.append('tele',telefono);
+        formulario.append('cor',correo);
+        formulario.append('luga',lugar);
+        formulario.append('empresa',empresa);
+        formulario.append('salario',sal);
+        formulario.append('enf',enfermedad);
+        formulario.append('paci',padecimiento);
+        formulario.append('dolo',dolencia);
+        formulario.append('refe',referencia);
+        formulario.append('medico',medico);
+        formulario.append('espe',especialidad);
+
+        let response=fetch("http://localhost/pacientes/back/view/V_pacientes.php",{
+            method:'POST',
+            body:formulario 
+
+        });
+        
+        Swal.fire(
+  'Registro ',
+  'Los datos de almacenaron exitoxamente',
+  'success'
+)
+document.getElementById("nombre").value="";
+document.getElementById("nit").value="";
+document.getElementById("edad").value="";
+document.getElementById("atecedentes").value="";
+document.getElementById("tipo").value="";
+document.getElementById("direcion").value="";
+document.getElementById("telefono").value="";
+document.getElementById("correo").value="";
+document.getElementById("lugar").value="";
+document.getElementById("empresa").value="";
+document.getElementById("salario").value="";
+document.getElementById("enfermedad").value="";
+document.getElementById("padecimiento").value="";
+document.getElementById("dolencia").value="";
+document.getElementById("referencia").value="";
+document.getElementById("medico").value="";
+document.getElementById("especialidad").value="";
+       
+        cargar();
+    });
+
+        </script>
+</html>
