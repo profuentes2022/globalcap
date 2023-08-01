@@ -29,13 +29,13 @@ class conec{
     
     //insert delete enviar 
     
-    public function enviar($sentencia){
-        mysqli_query($this->con,$sentencia);
+    public function enviar($sql){
+        mysqli_query($this->con,$sql);
     }
     
     
-    public function extraer($sentencia){
-        $tabla=mysqli_query($sentencia,$this->con);
+    public function extraer($sql){
+        $tabla=mysqli_query($sql,$this->con);
         return $tabla; 
     }
     

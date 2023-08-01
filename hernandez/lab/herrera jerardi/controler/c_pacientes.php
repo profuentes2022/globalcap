@@ -3,7 +3,7 @@ require_once("../model/coneccion.php");
 require_once("../model/pancientes.php");
 
 function guardarPaciente($paciente){
-    $sql="INSERT INTO pacientes(nombre, nit, edad, antecedentes, tipodesangre, direccion, telefono, correo, lugardetrabajo, nombreempresa, salario, enfermedad, padecimiento, dolencia, areareferida, medico, especialidad) VALUES ('".$paciente->getnombre()."','".$paciente->getnit()."','".$paciente->getedad()."','".$paciente->getantecedentes()."','".$paciente->gettipodesangre()."','"<<user.direccion<<"','"<<user.telefono<<"','"<<user.correo<<"','"<<user.lugardetrabajo<<"','"<<user.nombreempresa<<"','"<<user.salario<<"','"<<user.enfermedad<<"','"<<user.padecimiento<<"','"<<user.dolencia<<"','"<<user.areareferida<<"')";
+    $sql="INSERT INTO pacientes(nombre, nit, edad, antecedentes, tipodesangre, direccion, telefono, correo, lugardetrabajo, nombreempresa, salario, enfermedad, padecimiento, dolencia, areareferida, medico, especialidad) VALUES ('".$paciente->getnombre()."','".$paciente->getnit()."','".$paciente->getedad()."','".$paciente->getantecedentes()."','".$paciente->gettipodesangre()."','".$paciente->getdireccion()."','".$paciente->gettelefono()."','".$paciente->getcorreo()."','".$paciente->getlugardetrabajo()."','".$paciente->getnombreempresa()."','".$paciente->getsalario()."','".$paciente->getenfermedad()."','".$paciente->getpadecimiento()."','".$paciente->getdolencia()."','".$paciente->getarea()."','".$paciente->getmedico()."','".$paciente->getespecialidad()."')";
 
     $con=new conec();
 
@@ -13,8 +13,8 @@ function guardarPaciente($paciente){
     
 }
 
-function extraerproducto($obproduto){
-    $sql="select * from productos"
+function extraerproducto($paciente){
+    $sql="select * from pacientes"
 
     $con=new conec();
 
